@@ -6,10 +6,12 @@ Features
 - Minting NFTs: Create NFTs with custom metadata including name, eye color, shirt type, and bling.
 - Listing NFTs: Display the metadata of all minted NFTs.
 - Total Supply: Retrieve the total number of NFTs minted.
+- 
 
 Prerequisites
 
 Ensure you have a working environment for running JavaScript.
+
 
 
 Example Usage
