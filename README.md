@@ -1,1 +1,1 @@
-# Metacrafters-JSAssessment
+# NFT Collection Project
