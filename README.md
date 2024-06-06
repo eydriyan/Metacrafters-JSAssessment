@@ -8,10 +8,14 @@ Features
 - Total Supply: Retrieve the total number of NFTs minted.
 
 Prerequisites
+
 Ensure you have a working environment for running JavaScript.
 
+
 Example Usage
+
 // Mint some NFTs
+
 mintNFT("Bob", "Blue", "Hoodie", "Gold Chain");
 
 mintNFT("Charlie", "Hazel", "Tank Top", "Platinum Ring");
