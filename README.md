@@ -12,9 +12,11 @@ Ensure you have a working environment for running JavaScript.
 
 Code Explanation
 1. An array to store the NFT objects.
+
 const NFTs = [];
 
-2. The mintNFT function creates an NFT object with the given metadata and adds it to the NFTs array.
+3. The mintNFT function creates an NFT object with the given metadata and adds it to the NFTs array.
+
 function mintNFT (_name, _eyeColor, _shirtType, _bling) {
     const NFT = {
         "name": _name,
@@ -26,7 +28,8 @@ function mintNFT (_name, _eyeColor, _shirtType, _bling) {
     console.log("Minted: " + _name);
 }
 
-3. The listNFTs function logs the metadata of each NFT stored in the NFTs array.
+4. The listNFTs function logs the metadata of each NFT stored in the NFTs array.
+
 function listNFTs () {
     for(let i = 0; i < NFTs.length; i++) {
         console.log("\nID: \t\t" + (i + 1))
@@ -37,7 +40,8 @@ function listNFTs () {
     }
 }
 
-4. The getTotalSupply function logs the total number of NFTs in the NFTs array.
+6. The getTotalSupply function logs the total number of NFTs in the NFTs array.
+
 function getTotalSupply() {
     console.log("\n" + NFTs.length);
 }
